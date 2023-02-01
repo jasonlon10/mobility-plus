@@ -1,1 +1,266 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Nunito:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Alegreya, sans-serif;
+    font-weight: 500;
+    color: #202d34
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #202d34
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    padding-left: 30px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #202d34;
+}
+
+.active {
+    border-bottom: 1px solid #202d34;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/pexels-pixabay-209969.jpg') no-repeat center center;
+}
+
+#intro-text-1, #intro-text-1 h2 {
+    color: white
+}
+
+#intro-text-2, #intro-text-2 h2 {
+    color: white
+}
+
+#intro-text-1 {
+    font-size: 130%;
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: left;
+
+    width: 400px;
+    height: 30px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+
+    background-color: #073268;
+
+    bottom: 350px;
+    left: 0px;
+
+    position: absolute;
+}
+
+#intro-text-2 {
+    font-size: 200%;
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: left;
+
+    width: 900px;
+    height: 100px;
+
+    padding-top: 20px;
+    padding-left: 50px;
+
+    bottom: 220px;
+    left: 0px;
+
+    position: absolute;
+}
+
+/* mobility benefits */
+
+#mobility-benefits-header {
+    height: 100px;
+    background-color: #202d34;
+}
+
+#mobility-benefits-header h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 250%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#mobility-benefits {
+    height: 400px;
+    background-color: #59efe3;
+}
+
+.column-1 {
+    float: left;
+    width: 33.33%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.column-2 {
+    float: right;
+    width: 33.33%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.column-3 {
+    width: 33.33%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#circle-bg-1 {
+    background-color: #202d34;
+    height: 100%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#circle-bg-1 h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 200%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle-bg-2 {
+    background-color: #202d34;
+    height: 100%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#circle-bg-2 h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 200%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle-bg-3 {
+    background-color: #202d34;
+    height: 100%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#circle-bg-3 h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 200%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Media Queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+/* For larger to medium screens size from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #intro-text-1 {
+        left: 0;
+        width: 45%;
+        clear: left;
+        padding-left: 25px;
+    }
+
+    #intro-text-2 {
+        left: 0;
+        width: 75%;
+        font-size: 150%;
+        padding-left: 25px;
+    }
+}
