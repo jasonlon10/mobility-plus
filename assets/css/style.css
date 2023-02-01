@@ -252,6 +252,10 @@ h1, h2 {
     margin: 0;
 }
 
+#programmes {
+    height: 300px;
+}
+
 #beginner, #intermediate, #advanced {
     background-image: url(../images/pexels-pixabay-209969.jpg);
     background-repeat: no-repeat;
@@ -293,6 +297,126 @@ h1, h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+}
+
+/* get started section */
+
+#get-started-header {
+    height: 100px;
+    background-color: #202d34;
+    color: #fff;
+}
+
+#get-started-header h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 250%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#start-text-1, #start-text-1 h2 {
+    color: white
+}
+
+#start-text-2, #start-text-2 h2 {
+    color: white
+}
+
+#start-text-1 {
+    font-size: 130%;
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: left;
+
+    width: 400px;
+    height: 30px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+
+    background-color: #073268;
+
+    margin-top: 50px;
+
+    position: absolute;
+}
+
+#start-text-2 {
+    font-size: 200%;
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: left;
+
+    width: 900px;
+    height: 100px;
+
+    padding-top: 20px;
+    padding-left: 50px;
+
+    margin-top: 100px;
+
+    position: absolute;
+}
+
+.form-section {
+    clear: left;
+    background: url("/assets/images/pexels-pixabay-209969.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.signup-form {
+    margin: 100px 2.5% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    right: 2.5%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }
 
 /* Media Queries */
@@ -378,6 +502,35 @@ h1, h2 {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    #programmes > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    #beginner h2, #intermediate h2, #advanced h2 {
+        color: #fff;
+        font-size: 200%;
+        text-align: center;
+        position: relative;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    #beginner h3, #intermediate h3, #advanced h3 {
+        color: #fff;
+        font-size: 150%;
+        text-align: center;
+        position: relative;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
     }
 }
 
