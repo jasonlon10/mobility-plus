@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Nunito:wght@500&display=swap');
 
-* {
+
+   * {
     margin: 0;
     padding: 0;
     border: none;
@@ -69,15 +70,18 @@ h1, h2 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/pexels-pixabay-209969.jpg') no-repeat center center;
+    background: url('../images/hero-image-2.png') no-repeat center center;
 }
 
 #intro-text-1, #intro-text-1 h2 {
-    color: white
+    color: white;
+    padding-left: 50px;
 }
 
 #intro-text-2, #intro-text-2 h2 {
-    color: white
+    color: white;
+    font-size: 150%;
+    padding-left: 50px;
 }
 
 #intro-text-1 {
@@ -86,7 +90,6 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
-    text-align: left;
 
     width: 400px;
     height: 30px;
@@ -95,12 +98,10 @@ h1, h2 {
     padding-bottom: 0px;
     padding-left: 50px;
 
-    background-color: #073268;
-
-    bottom: 350px;
+    bottom: 370px;
     left: 0px;
 
-    position: absolute;
+    position: relative;
 }
 
 #intro-text-2 {
@@ -116,10 +117,10 @@ h1, h2 {
     padding-top: 20px;
     padding-left: 50px;
 
-    bottom: 220px;
+    bottom: 350px;
     left: 0px;
 
-    position: absolute;
+    position: relative;
 }
 
 /* mobility benefits */
@@ -331,20 +332,17 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
-    text-align: left;
+    text-align: center;
 
-    width: 400px;
+    width: 100%;
     height: 30px;
 
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 0px;
-    padding-left: 50px;
 
-    background-color: #073268;
+    margin-top: 0px;
 
-    margin-top: 50px;
-
-    position: absolute;
+    position: relative;
 }
 
 #start-text-2 {
@@ -352,59 +350,39 @@ h1, h2 {
     font-family: Nunito, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: left;
+    text-align: center;
 
-    width: 900px;
+    width: 100%;
     height: 100px;
 
     padding-top: 20px;
-    padding-left: 50px;
 
-    margin-top: 75px;
+    bottom: 5px;
 
-    position: absolute;
-}
-
-#start-text-3 {
-    font-size: 100%;
-    font-family: Nunito, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-align: left;
-    color: #fff;
-
-    width: 900px;
-    height: 100px;
-
-    padding-top: 20px;
-    padding-left: 50px;
-
-    margin-top: 225px;
-
-    position: absolute;
+    position: relative;
 }
 
 #get-started {
     clear: left;
     background-color: #073268;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+    height: 800px;
 }
 
 .signup-form {
-    margin: 50px 2.5% 0 0;
+    margin: auto;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    right: 2.5%;
+    max-width: 900px;
+    position: relative;
     padding: 30px;
+    top: 50px;
 }
 
 .signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    font-size: 200%;
+    text-align: left;
 }
 
 .text-input {
@@ -414,7 +392,7 @@ h1, h2 {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .text-input:hover {
@@ -422,6 +400,60 @@ h1, h2 {
 }
 
 .join-button {
+    margin: auto;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* SignUp Page */
+
+.form-section {
+    clear: left;
+    background: url('../images/formbg\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form-2 {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form-2 h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input-2 {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input-2:hover {
+    border-color: #f16c6b;
+}
+
+.join-button-2 {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -432,7 +464,7 @@ h1, h2 {
     display: block;
 }
 
-.join-button:hover {
+.join-button-2:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
@@ -576,7 +608,7 @@ footer {
     }
 
     #get-started {
-        height: 500px;
+        height: 800px;
     }
     
     #get-started-header {
@@ -584,31 +616,6 @@ footer {
         font-size: 100%;
         height: 100px;
         }
-    
-    #start-text-1 {
-        left: 0;
-        width: 40%;
-        clear: left;
-        padding-left: 25px;
-    }
-
-    #start-text-2 {
-        left: 0;
-        width: 50%;
-        font-size: 150%;
-        padding-left: 25px;
-    }
-
-    #start-text-3 {
-        left: 0;
-        width: 50%;
-        padding-left: 25px;
-        clear: left;
-    }
-
-    .signup-form {
-        margin-top: 10px;
-    }
 }
 
 /* For larger to medium screens size from 950px wide and down */
@@ -624,14 +631,14 @@ footer {
 
     #intro-text-1 {
         left: 0;
-        width: 45%;
+        width: 55%;
         clear: left;
         padding-left: 25px;
     }
 
     #intro-text-2 {
         left: 0;
-        width: 75%;
+        width: 85%;
         font-size: 150%;
         padding-left: 25px;
     }
@@ -735,24 +742,14 @@ footer {
     #start-text-2 {
         left: 0;
         width: 100%;
-        font-size: 100%;
-        padding-left: 25px;
-        text-align: center;
-    }
-
-    #start-text-3 {
-        left: 0;
-        width: 90%;
-        padding-left: 25px;
-        clear: left;
-        margin-top: 150px;
+        font-size: 150%;
+        padding-left: 0px;
         text-align: center;
     }
 
     .signup-form {
-        margin-top: 350px;
-        left: 25%;
-        width: 90%;
+        margin-top: 10px;
+        width: 100%;
         float: left;
         clear: left;
         padding: 10px;
@@ -762,4 +759,18 @@ footer {
 
 }
 
+/* For small screen sizes 800px and down */
 
+    #intro-text-1 {
+        left: 0;
+        width: 100%;
+        clear: left;
+        padding-left: 10px;
+    }
+
+    #intro-text-2 {
+        left: 0;
+        width: 85%;
+        font-size: 150%;
+        padding-left: 10px;
+    }

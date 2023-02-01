@@ -18,10 +18,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html">Sign Up</a>
-                </li>
-                <li>
-                    <a href="index.html">Our Programmes</a>
+                    <a href="signup.html">Sign Up</a>
                 </li>
                 <li>
                     <a href="index.html">About Us</a>
@@ -86,16 +83,13 @@
     </section>
     <section id="get-started">
         <div id="start-text-1">
-            <p><strong>Start Your Movement Journey</strong></p>
+            <p><strong>Start Your Movement Journey Today</strong></p>
         </div>
         <div id="start-text-2">
             <h2>Fill in Your Details to Get Started</h2>
         </div>
-        <div id="start-text-3">
-            <p>By submitting your details, you will receive more information on our programmes. Also included will be a link to book a call with our coaching team.</p>
-        </div>
         <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2><i class="fas fa-heartbeat"></i>Let's get you signed up!</h2>
+            <h2>Let's get you signed up!</h2>
             <label for="fname">First Name</label>
             <input class="text-input" id="fname" name="first_name" type="text" required>
             
@@ -105,14 +99,14 @@
             <label for="email">Email Address</label>
             <input class="text-input" type="email" id="email" name="email_address" required>
             
-            <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
+            <label for="beginner">Beginner</label>
+            <input type="radio" id="beginner" name="programme_choice" value="beginner" required>
+            <label for="inter">Inter</label>
+            <input type="radio" id="inter" name="programme_choice" value="inter" required>
+            <label for="adv">Adv</label>
+            <input type="radio" id="adv" name="programme_choice" value="adv" required>
             
-            <input class="join-button" type="submit" value="Let's Run!">
+            <input class="join-button" type="submit" value="Let's Move!">
         </form>
     </section>
     <footer>
