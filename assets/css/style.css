@@ -535,6 +535,89 @@ h1, h2 {
     transform: translate(-50%, -50%);
 }
 
+#circle-coach-2 {
+    background-color: #202d34;
+    height: 100%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    top: 50%;
+    left: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/hero-image-2.png') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#mission-header {
+    height: 100px;
+    background-color: #202d34;
+}
+
+#mission-header h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 250%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+#values-header {
+    height: 100px;
+    background-color: #202d34;
+}
+
+#values-header h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 250%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#values {
+    background-image: url(../images/hero-image-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#values div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+#values h2 {
+    color: #fafafa;
+    text-align: center;
+    font-size: 250%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
 /* footer */
 
 footer {
